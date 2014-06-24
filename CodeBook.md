@@ -13,76 +13,89 @@ Tidy Data: HumanActivityRecognitionAverage.txt
 
 The tidy data set contains the averages for the standard deviation and mean values from the data source.
 
-Variables
+Variables from the original data source were renamed as the following:
+* mean()-X -> MeanX
+* mean()-Y -> MeanY
+* mean()-Z -> MeanZ
+* std()-X-> StdX
+* std()-Y-> StdY
+* std()-Z-> StdZ
 
-Variable name    | Description
+Variable name    | Notes
 -----------------|------------
 SubjectID        | Subject Identifier from 1-30
 ActivityName     | Activity name : Laying, Walking, Walking downstairs, Walking upstairs, Sitting, Standing
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyAccMagMean
-tGravityAccMagMean
-tBodyAccJerkMagMean
-tBodyGyroMagMean
-tBodyGyroJerkMagMean
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyAccMagMean
-fBodyBodyAccJerkMagMean
-fBodyBodyGyroMagMean
-fBodyBodyGyroJerkMagMean
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagStd
-tGravityAccMagStd
-tBodyAccJerkMagStd
-tBodyGyroMagStd
-tBodyGyroJerkMagStd
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccMagStd
-fBodyBodyAccJerkMagStd
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagStd
+tBodyAccMeanX	|     
+tBodyAccMeanY	|
+tBodyAccMeanZ	|
+tGravityAccMeanX	|
+tGravityAccMeanY	|
+tGravityAccMeanZ	|
+tBodyAccJerkMeanX	|
+tBodyAccJerkMeanY	|
+tBodyAccJerkMeanZ	|
+tBodyGyroMeanX	|
+tBodyGyroMeanY	|
+tBodyGyroMeanZ	|
+tBodyGyroJerkMeanX	|
+tBodyGyroJerkMeanY	|
+tBodyGyroJerkMeanZ	|
+tBodyAccMagMean	|
+tGravityAccMagMean	|
+tBodyAccJerkMagMean	|
+tBodyGyroMagMean	|
+tBodyGyroJerkMagMean	|
+fBodyAccMeanX	|
+fBodyAccMeanY	|
+fBodyAccMeanZ	|
+fBodyAccJerkMeanX	|
+fBodyAccJerkMeanY	|
+fBodyAccJerkMeanZ	|
+fBodyGyroMeanX	|
+fBodyGyroMeanY	|
+fBodyGyroMeanZ	|
+fBodyAccMagMean	|
+fBodyBodyAccJerkMagMean	|
+fBodyBodyGyroMagMean	|
+fBodyBodyGyroJerkMagMean	|
+tBodyAccStdX	|
+tBodyAccStdY	|
+tBodyAccStdZ	|
+tGravityAccStdX	|
+tGravityAccStdY	|
+tGravityAccStdZ	|
+tBodyAccJerkStdX	|
+tBodyAccJerkStdY	|
+tBodyAccJerkStdZ	|
+tBodyGyroStdX	|
+tBodyGyroStdY	|
+tBodyGyroStdZ	|
+tBodyGyroJerkStdX	|
+tBodyGyroJerkStdY	|
+tBodyGyroJerkStdZ	|
+tBodyAccMagStd	|
+tGravityAccMagStd	|
+tBodyAccJerkMagStd	|
+tBodyGyroMagStd	|
+tBodyGyroJerkMagStd	|
+fBodyAccStdX	|
+fBodyAccStdY	|
+fBodyAccStdZ	|
+fBodyAccJerkStdX	|
+fBodyAccJerkStdY	|
+fBodyAccJerkStdZ	|
+fBodyGyroStdX	|
+fBodyGyroStdY	|
+fBodyGyroStdZ	|
+fBodyAccMagStd	|
+fBodyBodyAccJerkMagStd	|
+
+### Description of script
+
+#### Pre-requisites
+library(data.table)
+
+
+
+
 
